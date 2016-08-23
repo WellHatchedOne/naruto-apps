@@ -84,7 +84,7 @@
 					<button id="switchSmash4">Super Smash Bros. 4</button><br>
 					<button id="switchPM">Project M</button>
 					<button id="switchSSF2">Super Smash Flash 2</button><br>
-					<button id="switchSFV">Shrek SuperSlam</button>
+					<button id="switchS3">Shrek SuperSlam</button>
 					<button id="switchGGREV">Guilty Gear Xrd -Revelator-</button>
 				</div>
 				<p><strong>Changing your game will empty your tierlist!</strong> Do not click unless you are sure you want to change! You cannot undo this.</p>
@@ -127,7 +127,7 @@
 		var game64 = ["64","luigi","mario","dk","link","samus","falcon","ness","yoshi","kirby","fox","pikachu","jigglypuff"];
 		var gameBrawl = ["brawl","mario","luigi","peach","bowser","donkeykong","diddykong","yoshi","wario","link","zelda","sheik","ganondorf","toonlink","samus","zerosuitsamus","pit","iceclimbers","rob","kirby","metaknight","kingdedede","olimar","fox","falco","wolf","captainfalcon","pikachu","pokemontrainer","lucario","jigglypuff","marth","ike","ness","lucas","mrgamewatch","snake","sonic"];
 		var gamePM = ["pm","wario","mario","luigi","peach","bowser","yoshi","donkeykong","diddykong","falcon","wolf","fox","falco","icies","zelda","sheik","link","toonlink","ganon","mewtwo","lucario","pikachu","jigglypuff","squirtle","ivysaur","charizard","samus","zerosuit","lucas","ness","pit","kirby","metaknight","dedede","ike","marth","roy","olimar","rob","gnw","snake","sonic"];
-		var gameSFV = ["s3","Anthrax","BlackKnight","CaptainHook","Cyclops","Donkey","Dronkey","Fiona","FionaOgre","GingerbreadMan","G-nome","HnPWolf","HumptyDumpty","Luna","Pinocchio","PrinceCharming","PussInBoots","Quasimodo","RedRidingHood","RobinHood","Shrek"];
+		var gameS3 = ["s3","Anthrax","BlackKnight","CaptainHook","Cyclops","Donkey","Dronkey","Fiona","FionaOgre","GingerbreadMan","G-nome","HnPWolf","HumptyDumpty","Luna","Pinocchio","PrinceCharming","PussInBoots","Quasimodo","RedRidingHood","RobinHood","Shrek"];
 		var gameGGREV = ["ggrev","axl","bedman","chipp","elphelt","faust","ino","jacko","jam","johnny","kum","ky","leo","may","millia","potemkin","ramlethal","raven","sin","slayer","sol","venom","zato1","dizzy"];
 		var gameSSF2 = ["ssf2","mario","dk","link","kirby","samus","megaman","fox","ness","pikachu","sonic","peach","wario","zelda","sheik","metaknight","zss","bomberman","falcon","blackmage","jigglypuff","tails","yoshi","marth","lloyd","chibirobo","sora","ichigo","naruto","goku"];
 		
@@ -151,7 +151,7 @@
 		var currentColor;
 		var colorIndex;
 		var currentGame;
-		var currentGameChars = gameSmash4;
+		var currentGameChars = gameS3;
 		var characters;
 					  
 		for (var i = 0; i < tierDefaults.length; i++) {
@@ -206,7 +206,7 @@
 				case "switchBrawl": changeGame(gameBrawl);break;
 				case "switchPM": changeGame(gamePM);break;
 				case "switchSmash4": changeGame(gameSmash4);break;
-				case "switchSFV": changeGame(gameSFV);break;
+				case "switchS3": changeGame(gameS3);break;
 				case "switchGGREV": changeGame(gameGGREV);break;
 				case "switchSSF2": changeGame(gameSSF2);break;
 			}
@@ -284,7 +284,7 @@
 					case "brawl": changeGame(gameBrawl);break;
 					case "pm": changeGame(gamePM);break;
 					case "ssb4": changeGame(gameSmash4);break;
-					case "s3": changeGame(gameSFV);break;
+					case "s3": changeGame(gameS3);break;
 					case "ggrev": changeGame(gameGGREV);break;
 					case "ssf2": changeGame(gameSSF2);break;
 				}
@@ -384,7 +384,7 @@
 				case "brawl": changeGame(gameBrawl);break;
 				case "pm": changeGame(gamePM);break;
 				case "ssb4": changeGame(gameSmash4);break;
-				case "s3": changeGame(gameSFV);break;
+				case "s3": changeGame(gameS3);break;
 				case "ggrev": changeGame(gameGGREV);break;
 				case "ssf2": changeGame(gameSSF2);break;
 			}
