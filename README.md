@@ -7,4 +7,4 @@ A kludged modification of quetzle's Smash Apps, allowing the construction of Shr
 |
 [Modified Shrek Apps](http://rujames.github.io/shrek-apps)
 
-Currently the only modified app is the Tier List app, in which Shrek SuperSlam is still referred to as SFV in most of the code.
+Currently the only modified app is the Tier List app, although I may extend to the other apps if there is any interest.
