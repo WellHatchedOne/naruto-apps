@@ -1,13 +1,9 @@
-Smash Apps
+Shrek Apps
 ==========
 
-A collection of useful web apps for Super Smash Bros.
+A kludged modification of quetzle's Smash Apps, allowing the construction of Shrek SuperSlam tier lists.
 
-[Use them!](http://quetzle.github.io/smash-apps)
+[Original Smash Apps](http://quetzle.github.io/smash-apps)
+[Modified Shrek Apps](http://rujames.github.io/shrek-apps)
 
-Currently, the apps are:
-
-* Stage Striking - choose what stage to play on by banning certain stages!
-* Tier List Maker - create a tier list to show how you think the characters stack up!
-* Color Ranks - choose what your favorite colors are for each character!
-* Color Tier List Maker - create a tier list of every color in the game!
+Currently the only modified app is the Tier List app, in which Shrek SuperSlam is still referred to as SFV in most of the code.
